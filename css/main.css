@@ -1,0 +1,180 @@
+@import "reset.css";
+@font-face {
+  font-family: Mistral; /* Гарнитура шрифта */
+  src: url(../fonts/Mistral Regular.ttf); /* Путь к файлу со шрифтом */
+}
+@font-face {
+  font-family: Medium;
+  src: url(../fonts/YandexSansText-Medium.ttf)
+}
+body{
+  width: 100vw;
+  height: inherit;
+  background-color: #000000;
+}
+a{
+  text-decoration: none;
+  color: #FFFFFF;
+}
+.box1 h1 a{
+
+  color: #ECEC26;
+}
+.box3 h1 a{
+
+  color: #ECEC26;
+}
+.box1{
+  display: flex;
+  justify-content: flex-end;
+  margin-top: -90vh;
+  margin-right: 10vw;
+
+}
+.box1 h1{
+  position: relative;
+  z-index: 5;
+  font-family: Mistral;
+  font-size: 50px;
+  color: #ECEC26;
+
+  /**/
+}
+.box1 h1:hover{
+  text-shadow: #ECEC26 0 0 50px;
+}
+.box2 h1{
+  position: relative;
+  margin-bottom: -15vh;
+  z-index: 5;
+  font-family: Medium;
+  font-size: 30px;
+  color: #FFFFFF;
+  text-shadow: #000000 0px 0px 15px;
+}
+
+.box3 h1{
+  position: relative;
+  z-index: 5;
+  margin-top: 10vh;
+  font-family: Mistral;
+  font-size: 50px;
+  color: #ECEC26;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  /*text-shadow: #ECEC26 0 0 50px;*/
+}
+.box3 h1:hover{
+  text-shadow: #ECEC26 0 0 50px;
+}
+#main{
+  width: 100vw;
+  height: 100vh;
+  position: relative;
+  z-index: 3;
+}
+#main-down{
+  width: 100vw;
+  height: 100vh;
+  position: fixed;
+  margin-top: -20vh;
+
+}
+#main-2020{
+  width: 100vw;
+  height: 100vh;
+  position: relative;
+  opacity: 0;
+  margin-top: 100vh;
+}
+#main-tehnonikol2019{
+  width: 100vw;
+  height: 100vh;
+  position: relative;
+  opacity: 0;
+  margin-top: -100vh;
+}
+#main-showreel2019{
+  width: 100vw;
+  height: 100vh;
+  position: relative;
+  opacity: 0;
+  margin-top: -100vh;
+}
+#main-deepmerchlab2019{
+  width: 100vw;
+  height: 100vh;
+  position: relative;
+  opacity: 0;
+  margin-top: -100vh;
+}
+#main-moek2019{
+  width: 100vw;
+  height: 100vh;
+  position: relative;
+  opacity: 0;
+  margin-top: -100vh;
+}
+#main-komersant2019{
+  width: 100vw;
+  height: 100vh;
+  position: relative;
+  opacity: 0;
+  margin-top: -100vh;
+}
+#main-designshowreel2018{
+  width: 100vw;
+  height: 100vh;
+  position: relative;
+  opacity: 0;
+  margin-top: -100vh;
+}
+#main-flat2018{
+  width: 100vw;
+  height: 100vh;
+  position: relative;
+  opacity: 0;
+  margin-top: -100vh;
+}
+#main-moek2018{
+  width: 100vw;
+  height: 100vh;
+  position: relative;
+  opacity: 0;
+  margin-top: -100vh;
+}
+#main-down-opasity{
+  width: 100vw;
+  height: 100vh;
+  position: fixed;
+  margin-top: -20vh;
+}
+.box2{
+  margin-top: -100vh;
+
+  display: flex;
+  justify-content: space-around;
+  align-content: space-around;
+  flex-direction: column;
+
+}
+.icon{
+  position: relative;
+
+  z-index: 5;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.icon img{
+  margin-bottom: 15vh;
+  width: 40vw;
+  height: 30vh;
+}
+.ico:hover + #main-2020{
+  opacity: 1;
+  z-index: 3;
+}

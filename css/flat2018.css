@@ -1,0 +1,83 @@
+@font-face {
+  font-family: Mistral; /* Гарнитура шрифта */
+  src: url(../fonts/Mistral Regular.ttf); /* Путь к файлу со шрифтом */
+}
+@font-face {
+  font-family: Medium;
+  src: url(../fonts/YandexSansText-Medium.ttf)
+}
+@font-face {
+  font-family: light;
+  src: url(../fonts/YandexSansText-Thin.ttf)
+}
+@font-face {
+  font-family: Regular;
+  src: url(../fonts/YandexSansText-Regular.ttf)
+}
+#main{
+  position: fixed;
+  width: 100vw;
+  height: 100vh;
+  left: 0;
+  top: 0;
+}
+a{
+  text-decoration: none;
+
+}
+.box1{
+  margin-left: 10vw;
+  margin-top: 10vh;
+}
+.box1 h1 a{
+  position: relative;
+  z-index: 5;
+  font-family: Mistral;
+  font-size: 50px;
+  color: #ECEC26;
+}
+.box1 h1:hover{
+  text-shadow: #ECEC26 0 0 50px;
+}
+main{
+  width: 100vw;
+
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  flex-direction: column;
+}
+.box2 h1{
+  font-family: Regular;
+  font-size: 60px;
+  position: relative;
+  z-index: 5;
+  color: #FFFFFF;
+}
+iframe{
+  position: relative;
+  z-index: 5;
+}
+.box2{
+  width: 50vw;
+  height: 50vh;
+  margin-left: 25vw;
+  margin-top: -15vh;
+}
+.text{
+  width: 50vw;
+  height: 50vh;
+  margin-left: 25vw;
+  margin-top: 30vh;
+}
+
+p{
+  font-family: Regular;
+  font-size: 30px;
+  position: relative;
+  z-index: 5;
+  color: #FFFFFF;
+}
+p a{
+  color: #FF0000;
+}
