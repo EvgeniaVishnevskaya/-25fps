@@ -1,7 +1,7 @@
 @import "reset.css";
 @font-face {
   font-family: Mistral; /* Гарнитура шрифта */
-  src: url(../fonts/Mistral Regular.ttf); /* Путь к файлу со шрифтом */
+  src: url(../fonts/mistralregular.ttf); /* Путь к файлу со шрифтом */
 }
 @font-face {
   font-family: Medium;
