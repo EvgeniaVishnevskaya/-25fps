@@ -10,6 +10,15 @@
 meta{
   display: none;
 }
+.sukas{
+  display: flex;
+  justify-content: center;
+  width: 20vw;
+  height: 20vh;
+
+  margin-bottom: -32vh;
+
+}
 body{
   width: 100vw;
   height: inherit;
@@ -229,6 +238,15 @@ a{
     margin-bottom: -27vh;
 
   }
+  .sukas{
+    display: flex;
+    justify-content: center;
+    width: 30vw;
+    height: 20vh;
+
+    margin-bottom: -22vh;
+
+  }
   #main-down{
 
     margin-top: -10vh;
@@ -294,7 +312,7 @@ a{
     justify-content: center;
     width: 30vw;
     height: 20vh;
-
+    margin-left: -5vw;
     margin-bottom: -22vh;
 
   }
