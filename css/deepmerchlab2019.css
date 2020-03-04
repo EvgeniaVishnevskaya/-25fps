@@ -51,6 +51,12 @@ main{
   text-align: center;
   flex-direction: column;
 }
+.se{
+  width: 100px;
+  height: 100px;
+  position: relative;
+  margin-top: 40vh;
+}
 .box2 h1{
   font-family: Regular;
   font-size: 60px;
@@ -213,7 +219,7 @@ p a{
     margin-top: 0vh;
   }
   .box2 h1{
-    margin-left: 7vw;
+    margin-left: 16vw;
     font-size: 25px;
 
   }
