@@ -21,6 +21,10 @@
   left: 0;
   top: 0;
 }
+iframe{
+  width: 50vw;
+  height: 50vh;
+}
 a{
   text-decoration: none;
 
@@ -68,7 +72,7 @@ iframe{
   width: 50vw;
   height: 50vh;
   margin-left: 25vw;
-  margin-top: 110vh;
+  margin-top: 120vh;
 }
 .img{
   width: 50vw;
@@ -79,8 +83,8 @@ iframe{
   margin-top: 30vh;
 }
 .img img{
-  width: 560px;
-  height: 315px;
+  width: 50vw;
+  height: 50vh;
   margin-bottom: 10vh;
 }
 p{

@@ -57,6 +57,8 @@ main{
 iframe{
   position: relative;
   z-index: 5;
+  width: 50vw;
+  height: 50vh;
 }
 .box2{
   width: 50vw;
@@ -79,8 +81,8 @@ iframe{
   margin-top: 30vh;
 }
 .img img{
-  width: 560px;
-  height: 315px;
+  width: 50vw;
+  height: 50vh;
   margin-bottom: 10vh;
 }
 p{
