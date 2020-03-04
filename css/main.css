@@ -50,6 +50,7 @@ a{
   position: relative;
   margin-bottom: -15vh;
   z-index: 5;
+  text-align: center;
   font-family: Medium;
   font-size: 30px;
   color: #FFFFFF;
@@ -71,6 +72,13 @@ a{
 }
 .box3 h1:hover{
   text-shadow: #ECEC26 0 0 50px;
+}
+.suka{
+
+  width: 20vw;
+  height: 20vh;
+  margin-bottom: -32vh;
+
 }
 #main{
   width: 100vw;
@@ -214,6 +222,13 @@ a{
 
 
   }
+  .suka{
+
+    width: 30vw;
+    height: 20vh;
+    margin-bottom: -27vh;
+
+  }
   #main-down{
 
     margin-top: -10vh;
@@ -264,6 +279,13 @@ a{
 
     margin-top: -95vh;
     margin-right: 10vw;
+
+  }
+  .suka{
+
+    width: 30vw;
+    height: 20vh;
+    margin-bottom: -22vh;
 
   }
 
