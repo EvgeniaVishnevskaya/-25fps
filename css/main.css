@@ -7,6 +7,9 @@
   font-family: Medium;
   src: url(../fonts/YandexSansText-Medium.ttf)
 }
+meta{
+  display: none;
+}
 body{
   width: 100vw;
   height: inherit;
@@ -221,7 +224,7 @@ a{
     margin-top: -10vh;
 
 }
-@media (max-width: 500px) {
+@media screen and (max-width: 500px) {
   #main{
     display: none;
   }
@@ -243,14 +246,68 @@ a{
     width: 100vw;
     height: 100vh;
     position: fixed;
-    margin-top: -20vh;
+    margin-top: -10vh;
   }
   #main-down-opasity-min{
     opacity: 1;
     width: 100vw;
     height: 100vh;
     position: fixed;
-    margin-top: -20vh;
+    margin-top: -10vh;
   }
+  .box1 h1{
+
+    font-size: 30px;
+
+  }
+  .box1{
+
+    margin-top: -95vh;
+    margin-right: 10vw;
+
+  }
+
+  #main-tehnonikol2019{
+      display: none;
+  }
+  #main-showreel2019{
+      display: none;
+  }
+  #main-deepmerchlab2019{
+      display: none;
+  }
+  #main-moek2019{
+      display: none;
+  }
+  #main-komersant2019{
+      display: none;
+  }
+  #main-designshowreel2018{
+      display: none;
+  }
+  #main-flat2018{
+      display: none;
+  }
+  #main-moek2018{
+      display: none;
+  }
+  .icon img{
+    margin-bottom: 15vh;
+    width: 50vw;
+    height: 15vh;
+  }
+  .box3 h1{
+    margin-top: -5vh;
+
+    font-size: 30px;
+
+  }
+  .box2 h1{
+    font-size: 25px;
+    margin-bottom: -9vh;
+
+
+  }
+
 
 }
