@@ -1,11 +1,11 @@
 let controller = new ScrollMagic.Controller()
 
-let box2 = document.getElementById('main')
-let icon = document.getElementsByClassName('contacts')
+let main = document.getElementById('main')
+let icon = document.getElementById('icon')
 
 let box2Anim = anime({
-  targets: box2,
-  opasity: 0.5,
+  targets: main,
+  opasity: 0,
   autoplay: false,
   duration: 1400
 })

@@ -10,6 +10,13 @@
 meta{
   display: none;
 }
+.se{
+  width: 100px;
+  height: 100px;
+  position: relative;
+  margin-top: 40vh;
+
+}
 .sukas{
   display: flex;
   justify-content: center;
