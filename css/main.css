@@ -113,12 +113,14 @@ a{
 #main-2020{
   width: 100vw;
   height: 100vh;
-  position: relative;
-  opacity: 0;
-  margin-top: 100vh;
-  z-index: 4;
   position: fixed;
+  opacity: 0;
+  margin-top: -105vh;
+  z-index: 1;
+  transition: 400ms all ease;
+
 }
+
 #main-tehnonikol2019{
   width: 100vw;
   height: 100vh;
@@ -215,7 +217,16 @@ a{
   align-items: center;
   flex-direction: column;
 }
+.icon h1{
+  position: relative;
+  z-index: 6;
+}
+.icon a{
+  position: relative;
+  z-index: 5;
+}
 .icon img{
+
   margin-bottom: 15vh;
   width: 40vw;
   height: 30vh;
