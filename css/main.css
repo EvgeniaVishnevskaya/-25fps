@@ -115,67 +115,91 @@ a{
   height: 100vh;
   position: fixed;
   opacity: 0;
-  margin-top: -105vh;
-  z-index: 1;
+  margin-top: -225vh;
+  z-index: 3;
   transition: 400ms all ease;
 
 }
-
+#do{
+  position: relative;
+  z-index: 9;
+}
+#main-2020-min{
+  position: relative;
+  z-index: 8;
+}
 #main-tehnonikol2019{
   width: 100vw;
   height: 100vh;
-  position: relative;
+  position: fixed;
   opacity: 0;
-  margin-top: -100vh;
+  margin-top: -225vh;
+  z-index: 3;
+  transition: 400ms all ease;
 }
 #main-showreel2019{
   width: 100vw;
   height: 100vh;
-  position: relative;
+  position: fixed;
   opacity: 0;
-  margin-top: -100vh;
+  margin-top: -225vh;
+  z-index: 3;
+  transition: 400ms all ease;
 }
+
 #main-deepmerchlab2019{
   width: 100vw;
   height: 100vh;
-  position: relative;
+  position: fixed;
   opacity: 0;
-  margin-top: -100vh;
+  margin-top: -225vh;
+  z-index: 3;
+  transition: 400ms all ease;
 }
 #main-moek2019{
   width: 100vw;
   height: 100vh;
-  position: relative;
+  position: fixed;
   opacity: 0;
-  margin-top: -100vh;
+  margin-top: -225vh;
+  z-index: 3;
+  transition: 400ms all ease;
 }
 #main-komersant2019{
   width: 100vw;
   height: 100vh;
-  position: relative;
+  position: fixed;
   opacity: 0;
-  margin-top: -100vh;
+  margin-top: -225vh;
+  z-index: 3;
+  transition: 400ms all ease;
 }
 #main-designshowreel2018{
   width: 100vw;
   height: 100vh;
-  position: relative;
+  position: fixed;
   opacity: 0;
-  margin-top: -100vh;
+  margin-top: -225vh;
+  z-index: 3;
+  transition: 400ms all ease;
 }
 #main-flat2018{
   width: 100vw;
   height: 100vh;
-  position: relative;
+  position: fixed;
   opacity: 0;
-  margin-top: -100vh;
+  margin-top: -225vh;
+  z-index: 3;
+  transition: 400ms all ease;
 }
 #main-moek2018{
   width: 100vw;
   height: 100vh;
-  position: relative;
+  position: fixed;
   opacity: 0;
-  margin-top: -100vh;
+  margin-top: -225vh;
+  z-index: 3;
+  transition: 400ms all ease;
 }
 #main-down-opasity{
   width: 100vw;
