@@ -21,7 +21,6 @@ let sh = document.getElementById('main-showreel2019');
 let dm = document.getElementById('main-deepmerchlab2019');
 
 document.getElementById('main-2020-min').addEventListener("mouseover", function(){
-
   bg.style.opacity = 1;
   this.addEventListener("mouseout", function(){
     bg.style.opacity = 0;
