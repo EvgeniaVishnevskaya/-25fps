@@ -1,3 +1,21 @@
+
+var controller = new ScrollMagic.Controller ();
+
+var scene = new ScrollMagic.Scene({
+            triggerElement: "#se"
+          })
+          .setTween("#main", 0.5, {opacity: 0}) // trigger a TweenMax.to tween
+          .addIndicators({name: "1 (duration: 400)"}) // add indicators (requires plugin)
+          .addTo(controller);
+
+
+var scene2 = new ScrollMagic.Scene({
+  triggerElement: "#se"
+})
+  .setTween("#main-min", 0.5, {opacity: 0}) // trigger a TweenMax.to tween
+  .addIndicators({name: "1 (duration: 400)"}) // add indicators (requires plugin)
+  .addTo(controller);
+
 let bg = document.getElementById('main-2020');
 let sh = document.getElementById('main-showreel2019');
 let dm = document.getElementById('main-deepmerchlab2019');

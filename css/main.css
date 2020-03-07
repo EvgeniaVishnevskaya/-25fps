@@ -10,11 +10,11 @@
 meta{
   display: none;
 }
-.se{
+#se{
   width: 100px;
   height: 100px;
   position: absolute;
-  margin-top: 40vh;
+  margin-top: 80vh;
 
 }
 .sukas{
